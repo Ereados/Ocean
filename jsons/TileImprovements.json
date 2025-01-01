@@ -1,0 +1,29 @@
+[
+	{
+		"name": "Beach Resort",
+		"terrainsCanBeBuiltOn": ["Water"],
+		"turnsToBuild": 7,
+		"techRequired": "Flight",
+		"gold": 1,
+		"happiness": 1,
+		"uniques": ["Can only be built on [Atoll] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+	},
+	{
+		"name": "Kelp farm",
+		"terrainsCanBeBuiltOn": ["Water"],
+		"turnsToBuild": 7,
+		"food": 1,
+		"production": 1,
+		"techRequired": "Sailing",
+		"uniques": ["Can only be built on [Coast] tiles", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Deep sea mine",
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Water"],
+		"production": 2,
+		"techRequired": "Robotics",
+		"uniques": ["Can only be built on [Ocean] tiles", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+
+]
