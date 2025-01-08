@@ -18,12 +18,21 @@
 		"uniques": ["Can only be built on [Coast] tiles", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "Sailing",
+		"uniques": ["[+1 Gold] <after discovering [Compass]>","[+1 Food] <after discovering [Refrigeration]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "F"
+	},
+
+	{
 		"name": "Deep sea mine",
 		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Water"],
 		"production": 2,
-		"techRequired": "Robotics",
-		"uniques": ["Can only be built on [Ocean] tiles", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"techRequired": "Refrigeration",
+		"uniques": ["[+1 Production] <after discovering [Robotics]>","Can only be built on [Ocean] tiles", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 
 ]
