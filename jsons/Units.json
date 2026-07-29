@@ -6,6 +6,6 @@
 		"cost": 30,
 		"requiredTech": "Sailing",
 		"uniques": ["Can build [Water] improvements on tiles","Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
-            "Uncapturable", "Automation is a primary action"]
+            "Uncapturable", "Automation is a primary action","Only available <in cities adjacent to [Water]>"]
 	},
 ]
