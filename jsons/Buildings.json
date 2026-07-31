@@ -1,4 +1,12 @@
 [
+	{
+		"name": "Jetty",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Water Farm] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Lakes]"],
+		"requiredTech": "Sailing"
+	},
 {
 		"name": "Colossus",
 		"cost": 185,
