@@ -10,7 +10,7 @@
 	},
 	{
 		"name": "Row Boat",
-		"unitType": "Civilian Water",
+		"unitType": "Civilian Land",
 		"movement": 4,
 		"cost": 30,
 		"uniques": ["Can only be built <in cities with a [Jetty]>","Can build [Water] improvements on tiles","Cannot enter ocean tiles",
